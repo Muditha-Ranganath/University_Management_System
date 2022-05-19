@@ -8,6 +8,7 @@ if(isset($_GET['id'])){
 }
 ?>
 <div class="container-fluid">
+	
 	<form id="manage-fees">
 		<div id="msg"></div>
 		<input type="hidden" name="id" value="<?php echo isset($id) ? $id : '' ?>">
